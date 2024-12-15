@@ -6,7 +6,7 @@ import githubLight from '../../assets/github-light.svg';
 import githubDark from '../../assets/github-dark.svg';
 import linkedinLight from '../../assets/linkedin-light.svg';
 import linkedinDark from '../../assets/linkedin-dark.svg';
-import CV from '../../assets/cv.pdf';
+import CV from '../../assets/BasantH.pdf';
 import { useTheme } from '../../common/ThemeContext';
 
 function Profile() {
@@ -49,7 +49,7 @@ function Profile() {
         <p className={styles.description}>
         With passion for creating modern, responsive web apps with a focus on usability and performance.
         </p>
-        <a href={CV} download>
+        <a href={CV} >
           <button className="hover">Resume</button>
         </a>
       </div>
