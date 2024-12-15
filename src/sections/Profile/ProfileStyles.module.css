@@ -2,10 +2,12 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   gap: 20px;
   text-align: center;
   height: 100dvh;
   min-height: 500px;
+  padding: 50px;
 
   .Profile {
     max-width: 100px;
