@@ -1,8 +1,8 @@
 import styles from './ProjectsStyles.module.css';
-import viberr from '../../assets/viberr.png';
-import freshBurger from '../../assets/fresh-burger.png';
+import lemon from '../../assets/Logo Footer.2c859235d6c57bb54176.png';
+import Watering_sys from '../../assets/Auto.png';
 import hipsster from '../../assets/hipsster.png';
-import fitLift from '../../assets/fitlift.png';
+import Audio_FLT from '../../assets/Proj3.png';
 import ProjectCard from '../../common/ProjectCard';
 
 function Projects() {
@@ -11,16 +11,16 @@ function Projects() {
       <h1 className="sectionTitle">Projects</h1>
       <div className={styles.projectsContainer}>
         <ProjectCard
-          src={viberr}
-          link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="Viberr"
-          p="Streaming App"
+          src={lemon}
+          link="https://github.com/BasanttH/Frontened-capstone-LittileLemon.git"
+          h3="Little Lemon - Coursera"
+          p="Booking table form "
         />
         <ProjectCard
-          src={freshBurger}
-          link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="Fresh Burger"
-          p="Hamburger Restaurant"
+          src={Watering_sys}
+          link="https://github.com/BasanttH/Auto_Watering_System.git"
+          h3="Auto watering system "
+          p="Plant watering system with Arduino"
         />
         <ProjectCard
           src={hipsster}
@@ -29,10 +29,10 @@ function Projects() {
           p="Glasses Shop"
         />
         <ProjectCard
-          src={fitLift}
-          link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="FitLift"
-          p="Fitness App"
+          src={Audio_FLT}
+          link="https://acrobat.adobe.com/id/urn:aaid:sc:US:acf43954-379d-4b51-8cea-525c72cc61cf"
+          h3="Audio filter"
+          p="Digital Filters,Noise Removal"
         />
       </div>
     </section>
