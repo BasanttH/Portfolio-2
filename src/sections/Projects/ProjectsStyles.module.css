@@ -5,8 +5,8 @@
 }
 
 .container img {
-  max-width: 250px;
-  max-height: 250px;
+  max-width: 200px;
+  max-height: 200px;
   align-self: center;
   background-color: var(--project-card-bg);
 }
@@ -26,14 +26,25 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 30px;
+  gap: 20px;
 }
 
-@media (width >= 800px) {
+@media (min-width: 600px) {
+  .projectsContainer {
+    gap: 25px;
+  }
+}
+
+@media (min-width: 800px) {
   .projectsContainer {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    padding: 0 30px;
+    padding: 0 20px;
+  }
+
+  .container img {
+    max-width: 250px;
+    max-height: 250px;
   }
 }

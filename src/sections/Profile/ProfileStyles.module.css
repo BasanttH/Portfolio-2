@@ -83,6 +83,10 @@ button:active {
     max-width: 100px;
     width: 100px;
   }
+
+  button {
+    max-width: 90%;
+  }
 }
 
 @media (min-width: 800px) {
@@ -92,15 +96,19 @@ button:active {
     justify-content: space-evenly;
   }
 
-  .profile {
+  .Profile {
     max-width: 300px;
     width: 300px;
+  }
+
+  button {
+    max-width: 300px;
   }
 }
 
 @media (min-width: 1400px) {
   .container {
-    .profile {
+    .Profile {
       max-width: 400px;
       width: 400px;
     }
