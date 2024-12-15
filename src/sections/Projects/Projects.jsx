@@ -2,6 +2,7 @@ import styles from './ProjectsStyles.module.css';
 import lemon from '../../assets/Logo Footer.2c859235d6c57bb54176.png';
 import Watering_sys from '../../assets/Auto.png';
 import TemSystem from '../../assets/img2.png';
+import HairSal from '../../assets/Pro4.png';
 import Audio_FLT from '../../assets/Proj3.png';
 import ProjectCard from '../../common/ProjectCard';
 
@@ -35,8 +36,8 @@ function Projects() {
           p="Temperature alert system with audible alarms"
         />
          <ProjectCard
-          src={TemSystem}
-          link="https://github.com/Ade-mir/company-landing-page-2"
+          src={HairSal}
+          link="https://github.com/BasanttH/HairSalon2.git"
           h3="Hair day website"
           p="Hair day salon website - HTML,CSS"
         />
