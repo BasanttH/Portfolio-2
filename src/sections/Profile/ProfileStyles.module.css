@@ -2,55 +2,49 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 20px;
+  gap: 15px;
   text-align: center;
-  height: 100dvh;
+  height: 100vh;
   min-height: 500px;
+  padding: 0 15px;
+}
 
-  .Profile {
-    max-width: 100px;
-  }
+.Profile {
+  max-width: 90px;
+}
 
-  span {
-    display: flex;
-    gap: 25px;
-    justify-content: center;
+span {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
 
-    a {
-      margin: 0;
+a {
+  width: fit-content;
+  align-self: center;
+}
 
-      img {
-        width: 30px;
-      }
-    }
-  }
+button {
+  background-color: var(--btn-color);
+  color: var(--btn-text-color);
+  border: none;
+  border-radius: 20px;
+  width: 100%;
+  max-width: 300px;
+  height: 45px;
+  font-size: 18px;
+  font-weight: bold;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  transition: box-shadow 200ms ease-in-out, transform 200ms ease-in-out;
+}
 
-  a {
-    width: fit-content;
-    align-self: center;
-  }
+button:hover {
+  transform: scale(1.05);
+}
 
-  button {
-    background-color: var(--btn-color);
-    color: var(--btn-text-color);
-    border: none;
-    border-radius: 20px;
-    width: 126px;
-    height: 50px;
-    font-size: 20px;
-    font-weight: bold;
-    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-    transition: box-shadow 200ms ease-in-out, transform 200ms ease-in-out;
-  }
-
-  button:hover {
-    transform: scale(1.05);
-  }
-
-  button:active {
-    transform: translateY(2px);
-    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
-  }
+button:active {
+  transform: translateY(2px);
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
 }
 
 .colorModeContainer {
@@ -69,28 +63,42 @@
 
 .description {
   max-width: 24ch;
+  margin: 0 auto;
 }
 
 .info {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 15px;
 }
 
-@media (width >= 800px) {
+@media (max-width: 800px) {
+  .container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Profile {
+    max-width: 100px;
+    width: 100px;
+  }
+}
+
+@media (min-width: 800px) {
   .container {
     flex-direction: row-reverse;
     align-items: center;
     justify-content: space-evenly;
+  }
 
-    .profile {
-      max-width: 350px;
-      width: 350px;
-    }
+  .profile {
+    max-width: 300px;
+    width: 300px;
   }
 }
 
-@media (width >= 1400px) {
+@media (min-width: 1400px) {
   .container {
     .profile {
       max-width: 400px;
