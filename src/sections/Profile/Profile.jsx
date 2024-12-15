@@ -22,7 +22,7 @@ function Profile() {
         <img
           src={Img}
           className={styles.profile}
-          alt="Profile picture of Basant"
+          alt="Profile picture"
         />
         <img
           className={styles.colorMode}

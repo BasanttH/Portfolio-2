@@ -22,14 +22,13 @@ body {
   background-color: var(--background-color);
   display: flex;
   justify-content: center;
-  margin: 0 auto 30px;
+  margin: 0 auto 60px;
 }
 
 #root {
   display: flex;
   flex-direction: column;
-  gap: 20px;
-  padding: 0 10px;
+  gap: 60px;
 }
 
 h1,
@@ -54,76 +53,56 @@ h2 {
 
 h2,
 h3 {
-  font-size: 16px;
+  font-size: 20px;
 }
 
 h1 {
   font-family: 'Rubik', sans-serif;
-  font-size: 28px;
+  font-size: 32px;
 }
 
 p {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 300;
 }
 
 .sectionTitle {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .hover {
   cursor: pointer;
 }
 
-@media (min-width: 600px) {
-  #root {
-    gap: 40px;
-  }
-  h1 {
-    font-size: 32px;
-  }
-  h2,
-  h3 {
-    font-size: 20px;
-  }
-  p {
-    font-size: 16px;
-  }
-
-  .sectionTitle {
-    margin-bottom: 30px;
-  }
-}
-
-@media (min-width: 800px) {
-  #root {
-    gap: 60px;
-  }
-  h1 {
-    font-size: 36px;
-  }
-  h2,
-  h3 {
-    font-size: 22px;
-  }
-  p {
-    font-size: 18px;
-  }
-
-  .sectionTitle {
-    margin-bottom: 40px;
-  }
-}
-
-@media (min-width: 1400px) {
+@media (width >= 800px) {
   #root {
     gap: 100px;
   }
   h1 {
-    font-size: 48px;
+    font-size: 40px;
+  }
+  h2,
+  h3 {
+    font-size: 24px;
+  }
+  p {
+    font-size: 20px;
   }
 
   .sectionTitle {
     margin-bottom: 60px;
+  }
+
+  @media (width >= 1400px) {
+    #root {
+      gap: 200px;
+    }
+    h1 {
+      font-size: 48px;
+    }
+
+    .sectionTitle {
+      margin-bottom: 75px;
+    }
   }
 }
