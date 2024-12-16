@@ -37,7 +37,7 @@ function Profile() {
           <br />
           Hafiz
         </h1>
-        <h2>Frontend Developer</h2>
+        <h2>Software Engineer</h2>
         <span>
           <a href="https://github.com/BasanttH" target="_blank">
             <img src={githubIcon} alt="Github icon" />
@@ -47,7 +47,7 @@ function Profile() {
           </a>
         </span>
         <p className={styles.description}>
-        With passion for creating modern, responsive web apps with a focus on usability and performance.
+        With passion for building scalable systems and intuitive, responsive interfaces with a focus on clean code and seamless user experiences.
         </p>
         <a href={CV} >
           <button className="hover">Resume</button>
